@@ -4,7 +4,7 @@
 namespace App\classes;
 class Welcome
 {
-    public $message;
+    public $message , $firstNamr,$lastNamr;
 
     public function __construct()
     {
@@ -12,6 +12,10 @@ class Welcome
     }
     public function index()
     {
-        echo $this->message;
+         $this->firstNamr="Tariqul Islam";
+         $this->lastNamr="BITM";
+         echo gettype($this->firstNamr);
+//        echo $this->firstNamr." ".$this->lastNamr;
+//        echo $this->message;
     }
 }
