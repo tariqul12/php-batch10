@@ -12,12 +12,105 @@ class Welcome
     }
     public function index()
     {
-        $this->firstNumber=100;
-        $this->secondNumber= 20;
+        $this->firstNumber  =40;
+        $this->secondNumber =20;
+        $this->result       =30;
+
+        $this->result= $this->firstNumber + $this->secondNumber;
+
+        switch ($this->firstNumber){
+            case 10:
+                echo "hello World";
+                break;
+            case 20:
+                echo "hello Bangladesh";
+                break;
+            case 30:
+                echo "Hello Dhaka";
+                break;
+            case 40:
+                echo "BITM";
+                break;
+            default:
+                echo "hello BASIS";
+        }
+
+
+        //        if ($this->firstNumber > $this->secondNumber){
+//            echo "hello world";
+//        }
+//        elseif($this->firstNumber < $this->result){
+//            echo "hello Bangladesh";
+//        }
+//        elseif ($this->result > $this->firstNumber){
+//            echo "Hello PHP";
+//        }
+//        else{
+//            echo "hello Laravel";
+//        }
+
+//        if($this->firstNumber > $this->secondNumber){
+//            echo $this->result;
+//        }
+//        else{
+//            echo "hello world";
+//        }
+
+
+
+
+
+//        conditional statement
+//    if
+//
+//        repeated statement
+//
+
+
+
+        //        logic Operator
+
+//      ! operator
+//        $this->result=false;
+//        echo !$this->result;
+
+
+
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber < $this->secondNumber || $this->secondNumber < $this->result;
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber > $this->secondNumber || $this->secondNumber > $this->result;
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber < $this->secondNumber || $this->secondNumber > $this->result;
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber > $this->secondNumber || $this->secondNumber < $this->result;
+//        echo "<br>=============<br>";
+
+//          Logic operator &&
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber < $this->secondNumber && $this->secondNumber < $this->result;
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber > $this->secondNumber && $this->secondNumber > $this->result;
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber < $this->secondNumber && $this->secondNumber > $this->result;
+//        echo "<br>=============<br>";
+//        echo $this->firstNumber > $this->secondNumber && $this->secondNumber < $this->result;
+//        echo "<br>=============<br>";
+
+
+
 
 //        conditional operator
 
-        echo $this->firstNumber > $this->secondNumber;
+//        echo $this->firstNumber > $this->secondNumber;
+//        echo $this->firstNumber < $this->secondNumber;
+//        echo $this->firstNumber >= $this->secondNumber;
+//        echo $this->firstNumber <= $this->secondNumber;
+//        echo $this->firstNumber != $this->secondNumber;
+//        echo $this->firstNumber == $this->secondNumber;
+//        echo $this->firstNumber === $this->secondNumber;
+//        echo $this->firstNumber !== $this->secondNumber;
+
 //        //assigment operator
 //        echo "<br>";
 //        echo $this->firstNumber += $this->secondNumber;
