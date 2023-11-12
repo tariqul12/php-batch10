@@ -2,9 +2,11 @@
 
 
 namespace App\classes;
+use App\classes\Student;
+
 class Welcome
 {
-    public $message ,$firstNumber,$secondNumber,$result;
+    public $student, $students, $message ,$firstNumber,$secondNumber,$result;
 
     public function __construct()
     {
@@ -12,7 +14,9 @@ class Welcome
     }
     public function index()
     {
-        return view("home");
+        $this->student=new Student();
+        $this->students=$this->student->getAllStudent();
+        return view("home",["students"=>$this->students]);
 
 //        $this->data = [
 //            0 => [
