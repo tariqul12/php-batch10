@@ -12,8 +12,8 @@ class Welcome
     }
     public function index()
     {
-        include "view/home.php";
-        test();
+        return view("home");
+
 //        $this->data = [
 //            0 => [
 //                'name' => 'Shagor',
